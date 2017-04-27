@@ -1,5 +1,6 @@
 {
   "name": "ember-test-2k",
   "dependencies": {
+    "underscore": "^1.8.3"
   }
 }

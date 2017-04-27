@@ -1,0 +1,9 @@
+<div class="filter">
+  <div>
+    {{title}}
+    {{#each filters as |filter|}}
+        {{input type="checkbox" name="yearsFilter[]" change=(action "onChange" filter property)}}
+       <label>{{filter}}</label>
+    {{/each}}
+  </div>
+</div>

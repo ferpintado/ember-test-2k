@@ -1,0 +1,35 @@
+<div class="filter-bar">
+  {{
+    awesome-games-filter
+    filters=platforms
+    property="platforms"
+    title="Platforms"
+    onAdd=(action "addFilter")
+    onRemove=(action "removeFilter")
+  }}
+
+  {{
+    awesome-games-filter
+    filters=years
+    property="years"
+    title="Years"
+    onAdd=(action "addFilter")
+    onRemove=(action "removeFilter")
+  }}
+</div>
+
+
+<div class="list">
+  <ul>
+  {{#each filteredGames as |game|}}
+    <li>
+      <h2>{{game.title}}</h2>
+      <p>{{game.description}}</p>
+      <div class="footer">
+        <div><strong>Platforms:</strong>{{game.platforms}}</div>
+        <div><strong>Released:</strong> {{game.release_year}}</div>
+      </div>
+    </li>
+  {{/each}}
+  </ul>
+</div>

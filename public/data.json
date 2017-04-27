@@ -1,0 +1,54 @@
+{
+  "games":
+  [
+    {
+      "title": "Mafia III",
+      "platforms": ["xbl","psn","steam"],
+      "release_year": 2016,
+      "description": "Mafia III is an action-adventure video game developed by Hangar 13 and published by 2K Games for Microsoft Windows, PlayStation 4, Xbox One, and MacOS. It is the third installment in the Mafia series"
+    },
+    {
+      "title": "Evolve",
+      "platforms": ["xbl","psn","steam"],
+      "release_year": 2015,
+      "description": "Evolve is a first-person shooter video game developed by Turtle Rock Studios, published by 2K Games and distributed by Take-Two Interactive"
+    },
+    {
+      "title": "Battleborn",
+      "platforms": ["xbl","psn"],
+      "release_year": 2016,
+      "description": "Battleborn is an online first-person shooter video game developed by Gearbox Software and published by 2K Games for Microsoft Windows, PlayStation 4, and Xbox One. The game was released worldwide on May 3, 2016"
+    },
+    {
+      "title": "WWE Super Card",
+      "platforms": ["ios","android"],
+      "release_year": 2014,
+      "description": null
+    },
+    {
+      "title": "Star Wars Battlefront",
+      "platforms": ["xbl", "psn", "steam"],
+      "release_year": 2015,
+      "description": "Star Wars Battlefront is an action shooter video game developed by EA DICE, with additional work from Criterion Games, and published by Electronic Arts."
+    },
+    {
+      "title": "Halo 5: Guardians",
+      "platforms": ["xbl", "psn"],
+      "release_year": 2015,
+      "description": "Halo 5: Guardians is a first-person shooter video game developed by 343 Industries and published by Microsoft Studios for the Xbox One home video game console. Part of the Halo series, the game was released on October 27, 2015."
+
+    },
+    {
+      "title": "The Legend of Zelda: Breadth of the Wild",
+      "platforms": ["nintendo"],
+      "release_year": 2017,
+      "description": "he Legend of Zelda: Breath of the Wild is an open world action-adventure video game developed and published by Nintendo for the Nintendo Switch and Wii U video game consoles."
+    },
+    {
+      "title": "Splatoon 2",
+      "platforms": ["nintendo"],
+      "release_year": 2017,
+      "description": null
+    }
+  ]
+}

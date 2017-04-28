@@ -11,12 +11,12 @@ export default Ember.Component.extend({
       if (years.indexOf(game.release_year) === -1)
        years.push(game.release_year);
     });
-    return years.sort();
+    return years.sort().reverse();
   }),
 
   platforms: Ember.computed('platforms',function(){
     const platforms = this.get('games').map((game) => (game.platforms));
-    return _.unique(_.flatten(platforms));
+    return _.unique(_.flatten(platforms)).sort().reverse();
   }),
 
   filteredGames: Ember.computed('filtered_years', function(){

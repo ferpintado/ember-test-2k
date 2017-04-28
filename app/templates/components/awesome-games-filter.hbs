@@ -1,9 +1,17 @@
 <div class="filter">
   <div>
-    {{title}}
+    <div class="filter-button" {{action "toggleOpen"}}>
+      {{title}}
+      <i class="fa {{iconClass}}"></i>
+      <span>{{ filteredText }}</span>
+    </div>
+    <div class="checkbox-group ">
     {{#each filters as |filter|}}
-        {{input type="checkbox" name="yearsFilter[]" change=(action "onChange" filter property)}}
-       <label>{{filter}}</label>
+        <div class="checkbox">
+          {{input type="checkbox" change=(action "onChange" filter property)}}
+          <label>{{filter}}</label>
+        </div>
     {{/each}}
+    </div>
   </div>
 </div>
